@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+background-color: #A1EEBD;
+/* text-align: center;
+justify-content: center;  */
+}
+h1{
+    text-align: center;
+    justify-content: center;
+    font-size: 50px;
+    font-style: Bold Serif;
+    text-shadow: 0rem 0rem 1rem rgb(247, 6, 6);
+    padding: 30px;
+}
+.box{
+    background-color: #F6F7C4;
+    margin-left: 450px;
+    border: solid azure;
+    max-height: fit-content;
+    max-width: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    /* background-image: url("th.jpeg");
+    background-size: cover;  */
+}
+.button{
+    padding: 50px;
+    max-width: 500px; 
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    gap: 10px;
+}
+.btn{
+    height: 130px;
+    width: 130px;
+    border-radius: 20px;
+    background-color: #F6D6D6;
+    border: double azure;
+    box-shadow: 0rem 0rem 1rem rgb(15, 14, 14);
+    font-style: double;
+    color: rgb(255, 30, 0);
+    font-size: 60px;
+    text-shadow: 0rem 1rem 1rem rgb(237, 68, 68);
+}
+.reset{
+    /* display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center; */
+    background-color: #eec1c1;
+    margin-top: 30px;
+    margin-left: 700px;
+    width: 130px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 15px;
+    box-shadow: 0rem 1rem 2rem rgb(15, 14, 14);
+}
+.winnerbox {
+    /* display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;  */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 150px;
+    transform: translate(-50%,-50%);
+    /* margin-top: -400px;
+    margin-left: 650px;
+    max-width: 100px; */
+    padding: 20px;
+    background-color: #d286f2;
+    border-radius: 20px;
+    box-shadow: 0 9 15px rgba(46, 43, 43, 0.5);
+    display: none;
+    z-index: 10;
+    border: double #2c1111;
+}
+
+.winnerbox button{
+    max-width: fit-content;
+    margin-top: 50px;
+    margin-left: 20px;
+    font-size: 20px;
+    background-color: #ff9393;
+    border-radius: 8px;
+    box-shadow: 0rem 1rem 1rem rgb(15, 14, 14);
+    cursor: pointer;
+}
+
+.winnermsg{
+    /* display: flex; */
+    text-align: center;
+    /* align-items: center;
+    justify-content: center;  */
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+}
